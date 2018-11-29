@@ -1,0 +1,11 @@
+[package]
+name = "string-return"
+version = "0.1.0"
+authors = ["Jones, Mark A <maj6111@bswhealth.org>"]
+
+[lib]
+name = "string_return"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { path="./pyo3", version = "*", features = ["extension-module"] }
